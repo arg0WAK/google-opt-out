@@ -8,11 +8,9 @@
 @import url('utils/fixed.css');
 
 $font-family-sans-serif: 'Ubuntu Mono', monospace;
-$bg-mirage-950: #0F172A;
 
 body {
    font-family: $font-family-sans-serif;
-   background-color: $bg-mirage-950;
    a {
       transition: all 0.2s ease;
       display: inline-block;
