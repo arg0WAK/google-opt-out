@@ -1,6 +1,6 @@
-<a class="filter" href="https://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"></a>
+<a class="remove" href="https://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"></a>
 
-<h1 class='filter'>Google Opt-Out (Cookie Consent)</h1>
+<h1 class='remove'>Google Opt-Out (Cookie Consent)</h1>
 
 ![Google Opt-Out (Cookie Consent) Cover](https://arg0wak.github.io/gist/images/google-opt-out/2Q1NL3AAKQQUP8Z.png)
 
