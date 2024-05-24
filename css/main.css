@@ -5,6 +5,7 @@
 @import url("utils/fixed.css");
 body {
   font-family: "Ubuntu Mono", monospace;
+  background-color: #0F172A;
 }
 body a {
   transition: all 0.2s ease;
