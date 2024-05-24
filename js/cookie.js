@@ -58,8 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
    }
 
    function removeAdditionalCookies() {
-      // You must remove only addional cookies here
-      setCookie('disableAdditionalCookies', optionalCookies, { expires: -1, path: '/' })
+      setCookie('disableAdditionalCookies', '1', { expires: -1, path: '/' })
    }
 
    function handleAllowCookie() {
