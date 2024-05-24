@@ -147,7 +147,7 @@ Also you can use `cookie-container-left` and `cookie-container-right` classes in
 
 ## Remove Optional Cookie
 
-User when rejects analytics data tracking permissions, user may optionally want to reject other data tracking cookies. If you want to provide options to the user, you can customize the `optionalCookies` variable and manipulate the DOM as you wish through this structure.
+When user rejects analytics data tracking permissions, user may want to reject other data tracking cookies. If you want to provide options to the user, you can customize the `optionalCookies` variable and manipulate the DOM as you wish through this structure.
 
 ```bash
 const optionalCookies = ['cookieName1', 'cookieName2', 'cookieName3']
