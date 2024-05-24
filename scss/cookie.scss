@@ -1,0 +1,10 @@
+$WHITE: #ffffff;
+$BLACK: #000000;
+
+// If you want to customize the cookie banner, you can change below class and apply it to the cookie container element.
+
+.cookie-container {
+   background-color: $WHITE;
+   color: $BLACK;
+   border-radius: 10px;
+}

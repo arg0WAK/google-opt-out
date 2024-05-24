@@ -1,0 +1,21 @@
+.cookie-container-fixed {
+  position: fixed;
+}
+
+.cookie-container-center {
+  left: 50%;
+  bottom: 15px;
+  transform: translate(-50%);
+}
+
+.cookie-container-left {
+  left: 15px;
+  bottom: 15px;
+}
+
+.cookie-container-right {
+  right: 15px;
+  bottom: 15px;
+}
+
+/*# sourceMappingURL=fixed.css.map */

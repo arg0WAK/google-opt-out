@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <title>Google Opt-Out v1</title>
+      <!-- Required meta tags -->
+      <meta charset="utf-8" />
+      <meta
+         name="viewport"
+         content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+      <link
+         rel="stylesheet"
+         href="css/main.css" />
+
+      <!-- Google tag (gtag.js) -->
+      <script>
+         const PUBLIC_KEY = 'G-YGWJG254PH'
+
+         const script = document.createElement('script')
+         script.async = true
+         script.src = `https://www.googletagmanager.com/gtag/js?id=${PUBLIC_KEY}`
+         document.head.appendChild(script)
+
+         window.dataLayer = window.dataLayer || []
+         function gtag() {
+            dataLayer.push(arguments)
+         }
+         gtag('js', new Date())
+
+         gtag('config', PUBLIC_KEY)
+      </script>
+   </head>
+
+   <style>
+      .bg-mirage-950 {
+         background-color: #0f172a;
+      }
+   </style>
+
+   <body class="text-white bg-mirage-950">
+      <main class="min-vh-100 d-flex align-items-center align-content-center">
+         <div class="container col-10 col-md-12">
+            <div class="row gap-2">
+               <a
+                  target="_blank"
+                  class="mb-5 mt-5 text-center"
+                  href="https://github.com/arg0WAK">
+                  <svg
+                     id="svg"
+                     xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                     width="150"
+                     height="150"
+                     class="relative"
+                     viewBox="0, 0, 400,400"
+                     version="1.1">
+                     <g id="svgg">
+                        <path
+                           id="path0"
+                           d="M78.000 79.000 L 78.000 158.000 39.000 158.000 L 0.000 158.000 0.000 240.004 L 0.000 322.007 40.992 321.996 L 81.985 321.985 81.996 282.122 C 82.002 260.198,82.064 242.203,82.133 242.133 C 82.203 242.064,100.208 242.002,122.145 241.996 C 153.492 241.987,162.018 241.880,161.968 241.492 C 161.934 241.222,161.927 205.225,161.953 161.500 L 162.000 82.000 200.000 82.000 L 238.000 82.000 238.052 160.700 C 238.081 203.985,238.104 239.982,238.103 240.693 L 238.102 241.985 277.921 241.996 C 299.822 242.002,317.795 242.062,317.862 242.128 C 317.928 242.195,317.995 260.190,318.009 282.117 L 318.036 321.985 359.018 321.996 L 400.000 322.007 400.000 240.004 L 400.000 158.000 361.000 158.000 L 322.000 158.000 322.000 79.000 L 322.000 0.000 200.000 0.000 L 78.000 0.000 78.000 79.000 M158.009 359.009 L 157.983 400.000 199.995 400.000 L 242.007 400.000 241.996 359.009 L 241.985 318.018 200.010 318.018 L 158.035 318.018 158.009 359.009 "
+                           stroke="none"
+                           class="white"
+                           fill="#ffffff"
+                           fill-rule="evenodd"></path>
+                        <path
+                           id="path1"
+                           d=""
+                           stroke="none"
+                           fill-rule="evenodd"></path>
+                        <path
+                           id="path2"
+                           d=""
+                           stroke="none"
+                           fill-rule="evenodd"></path>
+                        <path
+                           id="path3"
+                           d=""
+                           stroke="none"
+                           fill-rule="evenodd"></path>
+                        <path
+                           id="path4"
+                           d=""
+                           stroke="none"
+                           fill-rule="evenodd"></path>
+                     </g>
+                  </svg>
+               </a>
+
+               <div class="mx-auto text-center">
+                  <div class="social mx-auto mb-4">
+                     <a
+                        href="https://www.linkedin.com/in/barisalbayrak/"
+                        target="_blank"
+                        ><i class="fa-brands fa-linkedin-in me-3"></i
+                     ></a>
+                     <a
+                        href="https://github.com/arg0WAK"
+                        target="_blank"
+                        ><i class="me-3 fa-brands fa-github"></i
+                     ></a>
+                     <a
+                        href="https://stackoverflow.com/users/20810598/baris-albayrak"
+                        target="_blank"
+                        ><i class="fa-brands fa-stack-overflow"></i
+                     ></a>
+                  </div>
+               </div>
+
+               <h1 class="text-center">Google Opt-Out (Cookie Consent)</h1>
+               <p class="text-center mb-5">
+                  Google Opt-out refers to a set of tools and settings that allow users to opt-out of certain data collection or tracking activities
+                  when using Google services. This is offered to users to enhance their privacy and help them avoid certain types of advertising or
+                  data collection. This repo gives the end user the option to refuse Analytics cookies. It supports both UA and GA4 properties.
+               </p>
+
+               <div class="row col-xl-10 col-12 mx-auto gap-4 gap-lg-0">
+                  <div class="col-lg-6">
+                     <div class="cookie-container h-100">
+                        <div class="form-group p-3 d-flex flex-column justify-content-center gap-2 rounded h-100">
+                           <div class="form-check">
+                              <input
+                                 disabled
+                                 checked
+                                 class="form-check-input"
+                                 type="checkbox"
+                                 value="true"
+                                 id="requiredCookies" />
+                              <label
+                                 class="form-check-label"
+                                 for="">
+                                 Required Cookies
+                                 <!-- You must write function for only required Cookies -->
+                              </label>
+                           </div>
+                           <div class="form-check">
+                              <input
+                                 class="form-check-input"
+                                 type="checkbox"
+                                 value=""
+                                 id="analyticsCookies" />
+                              <label
+                                 class="form-check-label"
+                                 for="analyticsCookies">
+                                 Analytics Cookies
+                              </label>
+                           </div>
+                           <div class="form-group d-flex flex-column gap-2">
+                              <button
+                                 class="btn btn-warning w-100"
+                                 onclick="handleAllowCookie()">
+                                 Accept Preferred Cookies 🔍
+                              </button>
+
+                              <div class="d-flex flex-md-row flex-column gap-2">
+                                 <button
+                                    class="btn btn-success w-100"
+                                    onclick="allowAllCookies()">
+                                    Accept All Cookies 🍪
+                                 </button>
+
+                                 <button
+                                    class="btn btn-danger w-100"
+                                    onclick="handleDisableCookie()">
+                                    Reject Cookies
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                     <div class="border d-flex flex-column gap-1 px-3 pt-3 h-100">
+                        <pre class="m-0">Application Cookies</pre>
+                        <hr class="m-0 mb-2" />
+                        <pre
+                           id="getCookies"
+                           class="text-break"></pre>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <!-- Bootstrap JavaScript Libraries -->
+      <script src="js/bootstrap.bundle.min.js"></script>
+
+      <script src="js/js.cookie.js"></script>
+
+      <!-- arg0WAK Cookie.js JavaScript -->
+      <script src="js/cookie.js"></script>
+
+      <script>
+         setTimeout(() => {
+            const getCookies = () => {
+               const cookies = document.cookie.split(';')
+               const cookiesObj = {}
+
+               cookies.forEach((cookie) => {
+                  const [key, value] = cookie.split('=')
+                  cookiesObj[key.trim()] = value
+               })
+
+               let formatedCookies = ''
+               for (const [key, value] of Object.entries(cookiesObj)) {
+                  formatedCookies += `${key}: ${value}\n`
+               }
+
+               const isEmpty = Object.keys(cookiesObj).length === 0
+
+               return isEmpty ? 'No Cookies Found' : formatedCookies
+            }
+
+            document.getElementById('getCookies').innerText = getCookies()
+         }, 100)
+      </script>
+   </body>
+</html>

@@ -1,0 +1,7 @@
+{
+   "dependencies": {
+      "bootstrap": "^5.3.3",
+      "js-cookie": "^3.0.5",
+      "sass": "^1.77.2"
+   }
+}

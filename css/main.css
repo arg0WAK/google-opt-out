@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://rawcdn.githack.com/barisalby/FontAwesome/fe4709f64c3085a87ed253d0f46b0aef5a88f3c0/css/all.min.css");
+@import url("bootstrap.min.css");
+@import url("cookie.css");
+@import url("utils/fixed.css");
+body {
+  font-family: "Ubuntu Mono", monospace;
+}
+body a {
+  transition: all 0.2s ease;
+  display: inline-block;
+}
+body a i {
+  color: #fff;
+  transition: all 0.2s ease;
+  padding-bottom: 5px;
+  border-bottom: solid 2px #38bdf8;
+}
+body a:hover {
+  transition: all 0.2s ease;
+}
+body a:hover i {
+  color: #38bdf8;
+  border-bottom-color: #fff;
+}
+body a:hover svg {
+  transition: all 0.2s ease;
+  transform: rotate(180deg);
+  position: relative;
+}
+body svg {
+  transition: all 0.2s ease;
+}
+
+/*# sourceMappingURL=main.css.map */

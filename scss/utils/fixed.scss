@@ -1,0 +1,21 @@
+// The cookie-container class is used to set the position of the cookie banner to fixed. The  cookie-container-center, cookie-container-left, and  cookie-container-right  classes are used to set the position of the cookie banner to the center, left, and right of the screen, respectively.
+
+.cookie-container-fixed {
+   position: fixed;
+}
+
+.cookie-container-center {
+   left: 50%;
+   bottom: 15px;
+   transform: translate(-50%);
+}
+
+.cookie-container-left {
+   left: 15px;
+   bottom: 15px;
+}
+
+.cookie-container-right {
+   right: 15px;
+   bottom: 15px;
+}
