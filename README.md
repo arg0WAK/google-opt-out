@@ -1,12 +1,16 @@
-![MIT License](https://img.shields.io/badge/License-MIT-green.svg "remove")
+<span>
+  <a href="https://choosealicense.com/licenses/mit/">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg"/>
+  </a>
+</span>
 
-<remove>
-<h1 class='remove'>Google Opt-Out (Cookie Consent)</h1>
-</remove>
+<span><h1>Google Opt-Out (Cookie Consent)</h1></span>
 
 ![Google Opt-Out (Cookie Consent) Cover](https://arg0wak.github.io/gist/images/google-opt-out/2Q1NL3AAKQQUP8Z.png)
 
+<span>
 Google Opt-out refers to a set of tools and settings that allow users to opt-out of certain data collection or tracking activities when using Google services. This is offered to users to enhance their privacy and help them avoid certain types of advertising or data collection. This repo gives the end user the option to refuse Analytics cookies. It supports both UA and GA4 properties.
+</span>
 
 ## ⛓️ Dependencies
 
