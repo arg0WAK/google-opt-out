@@ -48,11 +48,11 @@ Install all dependencies.
 Define your public key given by Google Analytics in the `PUBLIC_KEY` variable between the `<head></head>` tags.
 
 ```bash
-<!-- Google tag (gtag.js) -->
+# Google tag (gtag.js) #
 <script>
    const PUBLIC_KEY = 'G-XXXXXXXXXX'
 
-   // Code is continuing.
+   # Code is continuing.
 </script>
 ```
 
@@ -61,17 +61,17 @@ Import `js.cookie.js` and `cookie.js` file just before the `</body>` tags.
 ```bash
 <script src="/node_modules/js-cookie/dist/js.cookie.js"></script>
 
-<!-- arg0WAK Cookie.js JavaScript -->
+# arg0WAK Cookie.js JavaScript #
 <script src="js/cookie.js"></script>
 ```
 
 Import dependencies in your SCSS or CSS like below.
 
 ```bash
-// You don't need to use it in SCSS or CSS, you can define it as link in HTML if you want.
+# You don't need to use it in SCSS or CSS, you can define it as link in HTML if you want.
 @import url('/node_modules/bootstrap/dist/css/bootstrap.min.css');
 
-// Google Opt-Out Cookie Consent CSS
+# Google Opt-Out Cookie Consent CSS
 @import url('cookie.css');
 @import url('utils/fixed.css');
 ```
@@ -93,7 +93,7 @@ Go back your HTML file and add code belows.
             class="form-check-label"
             for="">
             Required Cookies
-            <!-- You must write function for only required Cookies -->
+            # You must write function for only required Cookies #
          </label>
       </div>
       <div class="form-check">
@@ -139,7 +139,7 @@ If you want to fix the Cookie Container over page, you can use the following cla
    cookie-container-fixed
    cookie-container-center">
 
-   <!-- Code is continuing -->
+   # Code is continuing
 </div>
 ```
 
