@@ -3,8 +3,8 @@
     <img src="https://img.shields.io/badge/License-MIT-green.svg"/>
   </a>
 </span>
-
-<span><h1>Google Opt-Out (Cookie Consent)</h1></span>
+<br/>
+<span><h1>Google Opt-Out (Cookie Consent)</h1></span><br/>
 
 ![Google Opt-Out (Cookie Consent) Cover](https://arg0wak.github.io/gist/images/google-opt-out/2Q1NL3AAKQQUP8Z.png)
 
